@@ -1,11 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
-
-get_ipython().system('pipx install tweepy openai requests')
-
 
 # In[ ]:
 
@@ -126,10 +121,4 @@ def home():
 if __name__ == "__main__":
     main()
     app.run(host="0.0.0.0", port=8000)
-
-
-# In[ ]:
-
-
-get_ipython().system('jupyter nbconvert --to script penelopeai.ipynb')
 
