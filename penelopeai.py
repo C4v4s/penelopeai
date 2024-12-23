@@ -107,8 +107,8 @@ def home():
 
 @app.route("processar")
 def processar():
+    main()
     return "Processamento concluído!"
 
 if __name__ == "__main__":
-    main()
     app.run(host="0.0.0.0", port=8000)
