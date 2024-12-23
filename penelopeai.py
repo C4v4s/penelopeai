@@ -105,6 +105,10 @@ app = Flask(__name__)
 def home():
     return "Projeto do notebook rodando no Azure!"
 
+@app.route("processar")
+def processar():
+    return "Processamento concluído!"
+
 if __name__ == "__main__":
     main()
     app.run(host="0.0.0.0", port=8000)
